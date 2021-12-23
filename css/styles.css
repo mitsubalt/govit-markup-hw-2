@@ -1,3 +1,11 @@
+:root {
+  --first-color: #212121;
+  --btn-color: #ffffff;
+  --accent-color: #2196f3;
+  --title-color: #757575;
+  --link-color: #ffffff;
+}
+
 body {
   font-family: "Roboto, Raleway", sans-serif;
 }
@@ -55,7 +63,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .header-link:hover,
@@ -64,7 +72,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-link-current {
@@ -72,7 +80,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-portfolio-link {
@@ -80,7 +88,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .header-portfolio-link:hover,
@@ -89,7 +97,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-portfolio-link-current {
@@ -97,7 +105,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-mail,
@@ -106,7 +114,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--title-color);
 }
 
 .header-mail:hover,
@@ -115,7 +123,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-tel:hover,
@@ -124,7 +132,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-portfolio-mail,
@@ -133,7 +141,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--title-color);
 }
 
 .header-portfolio-mail:hover,
@@ -142,7 +150,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .header-portfolio-tel:hover,
@@ -151,7 +159,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /*-------------------HERO----------------*/
@@ -168,10 +176,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--link-color);
 }
 
 .hero-btn {
+  font-family: inherit;
   background-color: #2196f3;
   font-weight: bold;
   font-size: 16px;
@@ -181,7 +190,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--btn-color);
 }
 
 .features-title {
@@ -190,7 +199,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .features-after-title {
@@ -199,7 +208,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--title-color);
 }
 
 .features-portfolio-btn {
@@ -209,7 +218,7 @@ body {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .features-portfolio-btn:hover,
@@ -221,10 +230,11 @@ body {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--link-color);
 }
 
 .features-portfolio-btn-current {
+  font-family: inherit;
   background-color: #2196f3;
   font-weight: 500;
   font-size: 16px;
@@ -232,7 +242,7 @@ body {
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--link-color);
 }
 
 .features-portfolio-item-title {
@@ -241,7 +251,7 @@ body {
   line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .features-portfolio-item-text {
@@ -250,7 +260,7 @@ body {
   line-height: 1.87;
   /* identical to box height, or 187% */
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--title-color);
 }
 
 .about-title {
@@ -259,7 +269,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .work-title {
@@ -268,7 +278,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .work-item-title {
@@ -278,7 +288,7 @@ body {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--first-color);
 }
 
 .work-item-text {
@@ -288,7 +298,7 @@ body {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--title-color);
 }
 
 .footer {
@@ -347,7 +357,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--link-color);
 }
 
 .footer-tel:hover:hover,
@@ -357,7 +367,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--link-color);
 }
 
 .footer-portfolio {
@@ -370,7 +380,7 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-portfolio-logo {
@@ -379,7 +389,7 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--link-color);
 }
 
 .footer-portfolio-google-maps {
@@ -388,7 +398,7 @@ body {
   line-height: 24px;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--link-color);
 }
 
 .footer-portfolio-mail {
@@ -416,7 +426,7 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--link-color);
 }
 
 .footer-portfolio-tel:hover,
@@ -426,5 +436,5 @@ body {
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--link-color);
 }
