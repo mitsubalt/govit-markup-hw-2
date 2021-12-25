@@ -326,15 +326,17 @@ body {
 }
 
 .footer-google-maps {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--link-color);
 }
 
 .footer-mail {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -344,6 +346,7 @@ body {
 }
 
 .footer-tel {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -395,6 +398,7 @@ body {
 }
 
 .footer-portfolio-google-maps {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -404,6 +408,7 @@ body {
 }
 
 .footer-portfolio-mail {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -413,6 +418,7 @@ body {
 }
 
 .footer-portfolio-tel {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
